@@ -1,52 +1,62 @@
-# Machine Learning Fundamentals – Applied Exercises
+# Machine Learning – Applied Regression and Model Interpretation
 
-This repository contains practical machine learning exercises developed as part of my Master’s program.  
-The work focuses on **understanding and applying core machine learning concepts using Python**, mainly in the context of model evaluation and interpretation.
+This repository contains an applied Machine Learning assignment developed as part of my Master’s program.  
+The work focuses on **using regression models to analyze relationships between variables and interpret results**, rather than on building optimized or production-ready models.
 
-The objective of the project is educational, aimed at reinforcing theoretical concepts through hands-on experimentation rather than building production-ready models.
+The objective of the project is educational, reinforcing theoretical concepts through **hands-on experimentation and interpretation of statistical outputs** using Python.
 
 ---
 
 ## 📁 Dataset
 
-The analysis is based on structured datasets provided during the course, used to validate theoretical questions and modeling assumptions.
-
-The data is used to explore relationships between variables and to apply basic predictive techniques.
+The analysis is based on structured datasets provided during the course.  
+The data is used to explore relationships between explanatory variables and target variables in a supervised learning context.
 
 ---
 
-## 🔍 Analysis & Modeling
+## 🔍 Analysis Workflow
 
-The notebook includes applied exercises covering topics such as:
+The notebook follows a structured analytical flow:
 
-- **Linear Regression**
-  - Ordinary Least Squares (OLS)
-  - Interpretation of coefficients
-  - Evaluation of model fit (R², statistical significance)
+### 1. Data Preparation
+- Loading and inspecting the dataset
+- Selection of explanatory variables and target variable
+- Preparing data structures for modeling
 
-- **Scoring & Predictive Modeling**
-  - Feature–target relationships
-  - Use of Python to validate model-based answers
-  - Interpretation of predictions in an applied context
+### 2. Linear Regression Modeling
+- Implementation of **Ordinary Least Squares (OLS)** regression
+- Estimation of model coefficients
+- Analysis of statistical significance and goodness of fit
 
-- **Statistical Validation**
-  - Use of regression outputs to support analytical conclusions
-  - Understanding model limitations
+### 3. Model Interpretation
+- Interpretation of regression coefficients
+- Evaluation of model performance using metrics such as **R²**
+- Discussion of limitations and assumptions of linear regression models
 
-The emphasis is placed on **correct reasoning and interpretation**, not on hyperparameter tuning or model optimization.
+The emphasis is placed on **understanding model behavior and outputs**, not on hyperparameter tuning or advanced optimization.
+
+---
+
+## 📊 Key Concepts Practiced
+
+- Supervised learning fundamentals
+- Linear regression modeling
+- Statistical interpretation of model results
+- Relationship between variables and predictive behavior
+- Validation of theoretical concepts through applied coding
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - **Python**
-  - Data analysis and modeling
+  - Core programming language for analysis
 
 - **Jupyter Notebook**
-  - Interactive experimentation
+  - Interactive development environment
 
 - **Pandas & NumPy**
-  - Data manipulation
+  - Data manipulation and numerical operations
 
 - **Statsmodels**
   - Regression modeling and statistical summaries
@@ -58,17 +68,17 @@ The emphasis is placed on **correct reasoning and interpretation**, not on hyper
 This project helped me strengthen:
 
 - My understanding of **machine learning fundamentals**
-- My ability to interpret regression and scoring models
-- My confidence working with statistical modeling outputs
-- The connection between theory and applied analysis
+- My ability to interpret regression outputs and statistical indicators
+- My confidence applying theoretical concepts using Python
+- My awareness of model assumptions and limitations
 
-The project is intentionally kept simple and transparent, reflecting a learning-focused approach.
+The work is intentionally kept simple and transparent, reflecting a learning-oriented approach rather than an attempt at advanced modeling.
 
 ---
 
 ## 📁 Repository Contents
 
-- `JOSE_FILGUEIRA_ORGE.ipynb` – Jupyter Notebook with applied ML exercises  
+- `JOSE_FILGUEIRA_ORGE.ipynb` – Jupyter Notebook with the full analysis  
 
 ---
 
@@ -76,3 +86,4 @@ The project is intentionally kept simple and transparent, reflecting a learning-
 
 **Jose Filgueira Orge**  
 Master’s student in Data Science  
+  
